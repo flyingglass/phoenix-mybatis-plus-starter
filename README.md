@@ -10,7 +10,6 @@
 ### 版本基础
 - Mybatis-Plus: 3.2.0
 - Spring-Boot: 2.2.2.RELEASE
-- Druid: 1.1.16
 
 ### Quick-Start
 

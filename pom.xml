@@ -9,10 +9,32 @@
     </parent>
 
     <groupId>com.github.flyingglass</groupId>
-    <artifactId>mybatis-plus-phoenix-starter</artifactId>
+    <artifactId>phoenix-mybatis-plus-starter</artifactId>
     <version>1.0.0</version>
     <name>${project.artifactId}</name>
     <description>Mybatis Plus Phoenix Starter Project For Spring Boot</description>
+
+    <licenses>
+        <license>
+            <name>The Apache Software License, Version 2.0</name>
+            <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+            <distribution>repo</distribution>
+        </license>
+    </licenses>
+
+    <scm>
+        <url>https://github.com/FlyingGlass/phoenix-mybatis-plus-starter</url>
+        <connection>git@github.com:FlyingGlass/phoenix-mybatis-plus-starter.git</connection>
+        <developerConnection>https://github.com/FlyingGlass</developerConnection>
+    </scm>
+
+    <developers>
+        <developer>
+            <name>FlyingGlass</name>
+            <email>794640536@qq.com</email>
+            <organization>https://github.com/FlyingGlass</organization>
+        </developer>
+    </developers>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -63,19 +85,6 @@
                     <target>${java.version}</target>
                     <showWarnings>true</showWarnings>
                 </configuration>
-            </plugin>
-            <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-source-plugin</artifactId>
-                <version>2.1.2</version>
-                <executions>
-                    <execution>
-                        <id>attach-sources</id>
-                        <goals>
-                            <goal>jar-no-fork</goal>
-                        </goals>
-                    </execution>
-                </executions>
             </plugin>
         </plugins>
     </build>
