@@ -80,4 +80,4 @@ spring:
 #### 自定义特性
 - 通过`Mybatis-plus`的`SqlInjector`注入`PhoenixUpsert`的`upsert`方法适应`phoenix`插入方法
 - 自定义`IPhoenixService`，用户的`Service`继承自`PhoenixServiceImpl`即可复用`Mybatis-plus`的`ServiceImpl<M, T>`所有方法
-- 关于`Phoenix`和`HBase`的版本兼容问题，对于包冲突，需要额外`shaded repackage`，参考`https://github.com/FlyingGlass/hbase-phoenix-shaded`
+- 关于`Phoenix`和`HBase`的版本兼容问题，对于包冲突，需要额外`shaded repackage`，参考:https://github.com/FlyingGlass/hbase-phoenix-shaded
