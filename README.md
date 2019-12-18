@@ -3,7 +3,7 @@
 ## 简介
 该项目主要利用SpringBoot的自动化配置特性来实现快速的将Mybatis-Plus + Phoenix引入Springboot项目中，简化原生Mybatis-Plus整合Phoenix使用。
 
-- [完整使用样例Demo参考](https://github.com/FlyingGlass/backend-starter-mybatis-demo)
+- [完整使用样例Demo参考](https://github.com/FlyingGlass/mybatis-plus-starter-demo)
 
 欢迎使用和star支持，如使用中碰到问题，可以提出Issue，我会尽力完善该Starter
 
