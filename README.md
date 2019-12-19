@@ -57,6 +57,18 @@ public class Bootstrap {
         </exclusion>
     </exclusions>
 </dependency>
+
+<dependency>
+    <groupId>com.github.flyingglass</groupId>
+    <artifactId>hbase-client-shaded</artifactId>
+    <version>1.0.0</version>
+    <exclusions>
+        <exclusion>
+            <groupId>org.apache.hbase</groupId>
+            <artifactId>hbase-client</artifactId>
+        </exclusion>
+    </exclusions>
+</dependency>
 ```
 
 - 配置`application.yml`
