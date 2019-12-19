@@ -49,7 +49,7 @@ public class Bootstrap {
 <dependency>
     <groupId>com.github.flyingglass</groupId>
     <artifactId>phoenix-core-shaded</artifactId>
-    <version>1.0.0</version>
+    <version>1.0.0-SNAPSHOT</version>
     <exclusions>
         <exclusion>
             <groupId>org.apache.phoenix</groupId>
@@ -61,7 +61,7 @@ public class Bootstrap {
 <dependency>
     <groupId>com.github.flyingglass</groupId>
     <artifactId>hbase-client-shaded</artifactId>
-    <version>1.0.0</version>
+    <version>1.0.0-SNAPSHOT</version>
     <exclusions>
         <exclusion>
             <groupId>org.apache.hbase</groupId>
