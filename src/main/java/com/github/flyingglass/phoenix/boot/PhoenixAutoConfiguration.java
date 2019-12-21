@@ -3,6 +3,7 @@ package com.github.flyingglass.phoenix.boot;
 import com.baomidou.mybatisplus.core.injector.AbstractMethod;
 import com.baomidou.mybatisplus.core.injector.DefaultSqlInjector;
 import com.baomidou.mybatisplus.core.injector.ISqlInjector;
+import com.baomidou.mybatisplus.extension.plugins.PaginationInterceptor;
 import com.github.flyingglass.phoenix.api.PhoenixUpsert;
 import org.springframework.boot.autoconfigure.condition.ConditionalOnMissingBean;
 import org.springframework.context.annotation.Bean;
@@ -30,6 +31,14 @@ public class PhoenixAutoConfiguration {
                 return methodList;
             }
         };
+    }
+
+    @Bean
+    @ConditionalOnMissingBean(PaginationInterceptor.class)
+    PaginationInterceptor paginationInterceptor() {
+        return new PaginationInterceptor().setDialectClazz(
+                "com.github.flyingglass.phoenix.PhoenixDialect"
+        );
     }
 
 }
