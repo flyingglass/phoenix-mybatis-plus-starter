@@ -37,7 +37,7 @@ public class PhoenixAutoConfiguration {
     @ConditionalOnMissingBean(PaginationInterceptor.class)
     PaginationInterceptor paginationInterceptor() {
         return new PaginationInterceptor().setDialectClazz(
-                "com.github.flyingglass.phoenix.PhoenixDialect"
+                "com.github.flyingglass.phoenix.api.PhoenixDialect"
         );
     }
 
