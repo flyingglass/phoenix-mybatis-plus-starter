@@ -9,7 +9,7 @@
 
     <groupId>com.github.flyingglass</groupId>
     <artifactId>phoenix-mybatis-plus-starter</artifactId>
-    <version>1.0.1</version>
+    <version>1.0.2-SNAPSHOT</version>
     <name>${project.artifactId}</name>
     <description>Mybatis Plus Phoenix Starter Project For Spring Boot</description>
 
